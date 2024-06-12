@@ -1,0 +1,71 @@
+/* our plane */
+
+.plane {
+    background: url(../../public/assets/images/plan_bg.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 90px;
+}
+
+.plan_bax {
+    margin-bottom: 30px;
+}
+
+.plan_bax figure {
+    margin: 0;
+}
+
+.plan_bax figure img {
+    width: 100%;
+    border: #fff solid 25px;
+}
+
+.plan_text {
+    background-color:lightsalmon;
+
+    cursor: pointer;
+    padding: 49px 40px;
+}
+
+.plan_text h3 {
+    color: #252525;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 22px;
+    padding-bottom: 10px;
+    transition: ease-in all 0.5s;
+    text-transform: uppercase;
+}
+
+.plan_text p {
+    color: #fff;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+    padding-bottom: 30px;
+}
+
+.plan_text .read_more {
+    position: absolute;
+    bottom: 11px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: ease-in all 0.5s;
+}
+
+#ho_plan:hover.plan_text .read_more {
+    opacity: 1 !important;
+    transition: ease-in all 0.5s;
+}
+
+#ho_plan:hover.plan_text h3 {
+    color:red;
+    transition: ease-in all 0.5s;
+}
+
+
+/* our plane */
+

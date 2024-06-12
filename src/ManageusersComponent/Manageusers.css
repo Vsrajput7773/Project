@@ -1,0 +1,43 @@
+
+/** about section **/
+
+ /* .about { */
+    /* background: url(../../public/assets/images/about_bg.jpg);  */
+    /* background-position: center; */
+    /* background-repeat: no-repeat; */
+    /* background-size: 100% 100%; */
+    /* margin-top: 90px; */
+    /* padding: 90px 0; */
+/* }  */
+
+/* .about .titlepage {
+    text-align: left;
+    padding-bottom: 0;
+}
+
+.about .titlepage h2::before {
+    position: relative;
+    margin: inherit;
+}
+
+.about .titlepage span {
+    padding-bottom: 60px;
+    padding-top: 40px;
+    font-weight: 500;
+}
+
+.about_img {
+    margin-right: -38px;
+    padding-left: 50px;
+}
+
+.about_img figure {
+    margin: 0;
+}
+
+.about_img figure img {
+    width: 100%;
+}  */
+
+
+/** end about section **/

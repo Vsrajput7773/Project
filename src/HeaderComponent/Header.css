@@ -1,0 +1,227 @@
+/**-- heading section --**/
+/*-- header --*/
+
+.header {
+    width: 100%;
+    height: 90px;
+    padding: 29px 20px;
+}
+
+.logo a {
+    font-size: 30px;
+    line-height: 25px;
+    color: #fff;
+    font-weight: bold;
+}
+
+
+/*-- navigation--*/
+
+.navigation.navbar {
+    /* float: right; */
+    /* padding: 0; */
+    padding-top: 2px;
+    background-image:url(../../public/assets/images/header-bg.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-color: transparent !important;
+
+    /* padding: 20px 60px 17px 70px; */
+}
+
+.navigation.navbar-dark .navbar-nav .nav-link {
+    padding: 0 20px;
+    color:#363636;
+    font-size: 17px;
+    line-height: 20px;
+    font-weight: 600;
+
+}
+
+.navigation.navbar-dark .navbar-nav .nav-link:focus,
+.navigation.navbar-dark .navbar-nav .nav-link:hover {
+    color:red;
+}
+
+.navigation.navbar-dark .navbar-nav .active>.nav-link,
+.navigation.navbar-dark .navbar-nav .nav-link.active,
+.navigation.navbar-dark .navbar-nav .nav-link.show,
+.navigation.navbar-dark .navbar-nav .show>.nav-link {
+    color:orangered;
+}
+
+@media (max-width:767px) {
+    .navbar-nav .nav-link {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        padding: 5px;
+        text-align: center;
+        font-size: 1rem;
+        /* color: #fff; */
+
+    }
+}
+
+
+.navbar-expand-md .navbar-nav {
+    padding-right: 10px;
+}
+
+ul.search {
+    padding-left: 10px;
+}
+
+ul.search li a {
+    color: #161825;
+}
+
+ul.search li a:hover {
+    color: #161825;
+}
+
+
+/** banner section **/
+
+.full_bg {
+    background: url(../../public/assets/images/b1.jpeg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* position: absolute; */
+}
+
+.banner_main {
+    position: relative;
+    /* padding-bottom: 175px; */
+}
+
+.build_box {
+    text-align: left;
+    padding-top: 20%;
+}
+
+.banner_po {
+    position: inherit;
+}
+
+.build_box p {
+    color: #fff;
+    font-size: 17px;
+    line-height: 30px;
+    font-weight: normal;
+    margin-bottom: 55px;
+}
+
+.build_box h1 {
+    font-size: 80px;
+    font-weight: bold;
+    color:black;
+    line-height: 95px;
+    padding-bottom: 20px;
+    display: block;
+}
+
+.orang {
+    color:crimson;
+}
+
+.build_box .quote_btn {
+    font-size: 18px;
+    padding: 13px 0;
+    font-weight: normal;
+    max-width: 228px;
+    border-radius: 50px;
+    text-transform: none;
+    height: 61px;
+}
+
+#myCarousel .carousel-control-prev,
+#myCarousel .carousel-control-next {
+    display: none;
+}
+
+.banner .carousel-indicators {
+    display: inline-block;
+    right: 0;
+    left: inherit;
+    margin-right: 6%;
+    top: 51%;
+}
+
+.banner .carousel-indicators li {
+    width: 25px;
+    height: 25px;
+    border-radius: 30px;
+    background: #252525;
+    margin: 6px 0;
+    cursor: pointer;
+}
+
+.banner .carousel-indicators .active {
+    background-color: #e6615a;
+}
+
+
+/** end banner section **/
+
+.titlepage {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.titlepage h2 {
+    font-size: 40px;
+    color: #252525;
+    line-height: 40px;
+    font-weight: bold;
+    padding-top: 8px !important;
+    padding: 0;
+}
+
+.titlepage h2::before {
+    position: relative;
+    content: "";
+    background: url(../../public/assets/images/ring.png);
+    width: 55px;
+    height: 51px;
+    top: -8px;
+    margin: 0 auto;
+    display: block;
+}
+
+.titlepage span {
+    font-size: 17px;
+    line-height: 25px;
+    color: #191919;
+    padding-top: 13px;
+    display: block;
+}
+
+.d_flex {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.read_more {
+    font-size: 17px;
+    background-color:#702CF8;
+    color: #fff;
+    padding: 6px 0px;
+    width: 100%;
+    max-width: 157px;
+    text-align: center;
+    display: inline-block;
+    transition: ease-in all 0.5s;
+    font-weight: 500;
+    border-radius: 5px;
+    height: 43px;
+}
+
+.read_more:hover {
+    background:blue;
+    color: #fff;
+    transition: ease-in all 0.5s;
+}
+
+
